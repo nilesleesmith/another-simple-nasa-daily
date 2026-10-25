@@ -1,77 +1,69 @@
 # NASA Astronomy Picture of the Day
 
-A simple JavaScript project that retrieves NASA's Astronomy Picture of the Day for a selected date.
+Choose a date to view NASA's Astronomy Picture of the Day, title, and explanation.
 
-## About
+## Overview
 
-This project allows a user to enter a date and request NASA's Astronomy Picture of the Day for that day.
+NASA Astronomy Picture of the Day lets a user choose a date and request the corresponding media from NASA's Astronomy Picture of the Day (APOD) API.
 
-The API response is checked to determine whether the returned media is an image or video.
-
-The project then displays the media along with its title and explanation.
+The application checks whether the returned media is an image or a video, then displays the media along with its title and explanation.
 
 ## Features
 
-- Enter a date
+- Select a date
 - Request NASA Astronomy Picture of the Day data
-- Display an image when the result is an image
-- Display a video when the result is a video
-- Display the NASA title
-- Display the NASA explanation
-- Clear previous results before a new search
-
-## Topics Practiced
-
-### APIs
-
-- Using `fetch()`
-- Building an API URL
-- Reading JSON responses
-- Accessing API properties
-
-### Functions
-
-- Declaring functions
-- Passing arguments
-- Using parameters
-- Calling helper functions
-
-### Conditionals
-
-- Checking media type
-- Displaying different content based on the API response
-
-### DOM Manipulation
-
-- Reading a date input
-- Updating image sources
-- Updating video sources
-- Updating text content
-- Resetting page content
-
-### Promises
-
-- Using `.then()`
-- Working with asynchronous API responses
+- Display image results
+- Display video results
+- Display the NASA-provided title
+- Display the NASA-provided explanation
+- Clear the previous result before a new search
 
 ## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- NASA Astronomy Picture of the Day API
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
 
-## Running the Project
+- [NASA Astronomy Picture of the Day API](https://api.nasa.gov/)
 
-1. Clone or download the repository.
-2. Open `index.html`.
-3. Select a date.
-4. Select the button to request the NASA media for that date.
-5. Review the image or video, title, and explanation.
-6. Open the browser developer tools and select the Console to view logged data.
+## How to Run
 
-## Purpose
+1. Clone the repository:
 
-This project was created while practicing JavaScript functions, APIs, promises, conditionals, and DOM manipulation.
+```bash
+git clone https://github.com/nilesleesmith/another-simple-nasa-daily.git
+```
 
-The focus is on learning the basic process of taking user input, requesting external data, and displaying the returned information in the browser.
+2. Open the project folder.
+
+3. Open `index.html` in a web browser.
+
+No additional packages or build steps are required.
+
+## Live Site
+
+Coming soon.
+
+## Screenshots
+
+### Desktop
+
+![NASA Astronomy Picture of the Day desktop view](./screenshots/another-simple-nasa-daily-desktop.png)
+
+### Tablet
+
+![NASA Astronomy Picture of the Day tablet view](./screenshots/another-simple-nasa-daily-tablet.png)
+
+### Mobile
+
+![NASA Astronomy Picture of the Day mobile view](./screenshots/another-simple-nasa-daily-mobile.png)
