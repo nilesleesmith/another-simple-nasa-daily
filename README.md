@@ -52,18 +52,10 @@ No additional packages or build steps are required.
 
 ## Live Site
 
-Coming soon.
+https://nilesleesmith.github.io/another-simple-nasa-daily/
 
 ## Screenshots
 
 ### Desktop
 
 ![NASA Astronomy Picture of the Day desktop view](./screenshots/another-simple-nasa-daily-desktop.png)
-
-### Tablet
-
-![NASA Astronomy Picture of the Day tablet view](./screenshots/another-simple-nasa-daily-tablet.png)
-
-### Mobile
-
-![NASA Astronomy Picture of the Day mobile view](./screenshots/another-simple-nasa-daily-mobile.png)
