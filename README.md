@@ -56,6 +56,4 @@ https://nilesleesmith.github.io/another-simple-nasa-daily/
 
 ## Screenshots
 
-### Desktop
-
 ![NASA Astronomy Picture of the Day desktop view](./screenshots/another-simple-nasa-daily-desktop.png)
